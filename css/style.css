@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+:root{
+    /* ----COLORS--- */
+    --coral-color:#D87D4A;
+    --black-color:#101010;
+    --half-white-color:#F1F1F1;
+    --light-half-white-color:#FAFAFA;
+    --light-coral-color:#fbaf85;
+    --white-color:#FFFFFF;
+    --dark-black-color:#000000;
+
+    /* ----TYPOGRAPHY--- */
+
+    /* --headding--one-- */
+    --headding-one-font-size:3.5rem;
+    --headding-one-line-height:3.65rem;
+    --headding-one-letter-spacing:0.125rem;
+
+     /* --headding--two-- */
+    --headding-two-font-size:2.5rem;
+    --headding-two-line-height:2.75rem;
+    --headding-two-letter-spacing:0.089375rem;
+
+     /* --headding--three-- */
+    --headding-three-font-size:2rem;
+    --headding-three-line-height:2.25rem;
+    --headding-three-letter-spacing:0.07125rem;
+
+     /* --headding--four-- */
+    --headding-four-font-size:1.75rem;
+    --headding-four-line-height:2.735rem;
+    --headding-four-letter-spacing:0.125rem;
+
+     /* --headding--five-- */
+    --headding-five-font-size:1.5rem;
+    --headding-five-line-height:2.0625rem;
+    --headding-five-letter-spacing:0.106875rem;
+
+     /* --headding--six-- */
+    --headding-six-font-size:1.25rem;
+    --headding-six-line-height:1.5rem;
+    --headding-six-letter-spacing:0.080625rem;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: var(--dark-black-color);
+    padding: 1rem 5rem 1rem 5rem;
+    width: 100vw;
+    height: 100vh;
+    color: var(--white-color);
+    font-family: "Varela Round", serif;
+}
+.wrapper header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+nav ul{
+    display: flex;  
+    list-style: none;
+    gap: 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.hr-first{
+    opacity: 20%;
+}
+svg{
+    display: none;
+}
