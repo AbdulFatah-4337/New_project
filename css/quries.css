@@ -1,34 +1,41 @@
-@media (max-width:375px){
-
-    /* navbar-responsive-on-mobile-phone */
+/* for-extra-small-devices  */
+@media (max-width: 475px){
+    /* navbar-started */
     html{
-        font-size: 10px;
+        font-size: 15px;
     }
     .wrapper{
-        padding: 1rem;
+        padding: 1rem 2rem;
     }
     .wrapper header{
-        padding-bottom: 10px;
+        padding-bottom: 15px;
+    }
+    header .icon-headding-container{
+        gap: 3rem;
     }
     header h1{
-        font-size: 2rem;
+        font-size: 4rem;
     }
+
     nav{
         display: none;
     }
     svg{
         display: block;
     }
-    
+    /* navbar-completed */
 }
-@media (max-width:400px){
 
-    /* responsive-for-middle-size-screen */
+
+
+
+@media  (min-width:476px) and (max-width: 800px){
+       /* navbar-started */
     html{
-        font-size: 10px;
+        font-size: 15px;
     }
     .wrapper{
-        padding: 2rem;
+        padding: 1rem 2rem;
     }
     .wrapper header{
         padding-bottom: 10px;
@@ -42,11 +49,15 @@
     svg{
         display: block;
     }
-    
+        /* navbar-completed */
 }
-@media (min-width: 401px) and (max-width: 600px){
+
+
+
+@media (min-width:801px) and (max-width: 1000px){
+       /* navbar-started */
     html{
-        font-size: 10px;
+        font-size: 15px;
     }
     .wrapper{
         padding: 2rem;
@@ -58,9 +69,36 @@
         font-size: 4rem;
     }
     nav{
-        display: none;
-    }
-    svg{
         display: block;
     }
+    svg{
+        display: none;
+    }
+        /* navbar-completed */
+}
+
+
+
+
+@media (min-width:1001px) and (max-width:1115px){
+       /* navbar-started */
+    html{
+        font-size: 15px;
+    }
+    .wrapper{
+        padding: 2rem;
+    }
+    .wrapper header{
+        padding-bottom: 10px;
+    }
+    header h1{
+        font-size: 4rem;
+    }
+    nav{
+        display: block;
+    }
+    svg{
+        display: none;
+    }
+        /* navbar-completed */
 }
