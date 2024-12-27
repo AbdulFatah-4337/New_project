@@ -51,13 +51,13 @@
 .wrapper{
     background-color: var(--dark-black-color);
     padding: 1rem 5rem 1rem 5rem;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw; */
+    /* height: 100vh; */
     color: var(--white-color);
     font-family: "Varela Round", serif;
-    line-height: var(--headding-two-line-height);
-
+    position: relative;
 }
+ /* navbar-started */
 .wrapper header{
     display: flex;
     justify-content: space-between;
@@ -91,3 +91,22 @@ nav ul li a{
 svg{
     display: none;
 }
+  /* navbar-complated */
+
+  /* hero-section-started */
+
+/* .hero-section-container{
+   display: flex;
+
+}
+.hero-content-container{
+   display: flex;
+   flex-direction: column;
+   
+}
+.hero-section-container img{
+    width: 697px;
+    height: 870px;
+    position: absolute;
+    left: 610px;
+} */
