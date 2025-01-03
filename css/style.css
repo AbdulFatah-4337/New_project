@@ -15,7 +15,7 @@
     /* --headding--one-- */
     --headding-one-font-size:3.5rem;
     --headding-one-line-height:3.65rem;
-    --headding-one-letter-spacing:0.125rem;
+    --headding-one-letter-spacing:0.129rem;
 
      /* --headding--two-- */
     --headding-two-font-size:2.5rem;
@@ -48,14 +48,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-.wrapper{
-    background-color: var(--dark-black-color);
-    padding: 1rem 5rem 1rem 5rem;
-    /* width: 100vw; */
-    /* height: 100vh; */
-    color: var(--white-color);
-    font-family: "Varela Round", serif;
+
+body{
     position: relative;
+    display: flex;
+}
+.wrapper{
+    background-color: var(--black-color);
+    padding: 1rem 5rem 1rem 5rem;
+    width: 100vw;
+    height: 100vh;
+    color: var(--half-white-color);
+    font-family: "Varela Round", serif;
 }
  /* navbar-started */
 .wrapper header{
@@ -95,18 +99,49 @@ svg{
 
   /* hero-section-started */
 
-/* .hero-section-container{
+.hero-section-container{
    display: flex;
-
 }
 .hero-content-container{
    display: flex;
    flex-direction: column;
-   
+   position: absolute;
+   left: 5rem;
+   top: 10rem;
+   color: var(--white-color);
+   font-family: sans-serif;
+   font-weight: 500;
 }
-.hero-section-container img{
-    width: 697px;
-    height: 870px;
+.hero-content-container h5{
+   letter-spacing: var(--headding-one-letter-spacing);
+   line-height: var(--headding-one-line-height);
+   font-size: var(--headding-six-font-size);
+   color: gray;
+}
+.hero-content-container h1{
+    line-height: var(--headding-one-line-height);
+    letter-spacing: var(--headding-one-letter-spacing);
+    font-size: var(--headding-one-font-size);
+}
+.hero-content-container p{
+    letter-spacing: var(--headding-five-letter-spacing) ;
+    line-height: var(--headding-six-line-height) ;
+    font-size: 15px;
+}
+.hero-content-container .btn{
+   width: 140px;
+   height: 40px;
+   background: chocolate;
+   color: var(--white-color);
+   border: 2px solid rgb(248, 105, 2);
+   font-size: 15px;
+   margin-top: 2rem;
+}
+
+.hero-section-container .audiopile-image-container img{
+    width: 50vw;
+    height: 88vh;
+    right: 5rem;
+    top: 4.8rem;
     position: absolute;
-    left: 610px;
-} */
+}
